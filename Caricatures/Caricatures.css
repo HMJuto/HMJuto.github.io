@@ -3,3 +3,8 @@
   font-size: 100px;
 }
 
+p {
+  position: absolute;
+  text-align: center;
+  margin-top: 500px;
+}
