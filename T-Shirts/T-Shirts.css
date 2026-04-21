@@ -10,3 +10,8 @@ p {
     bottom: 400px;
     top: 200px;
 }
+
+#image {
+    position: absolute;
+    top: 50%;
+}
