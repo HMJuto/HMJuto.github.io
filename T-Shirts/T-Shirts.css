@@ -1,7 +1,7 @@
 #title {
     text-align: center;
     font-size: 100px;
-    font-color: white;
+    color: White;
 }
 
 p {
@@ -10,7 +10,7 @@ p {
     right: 20px;
     bottom: 400px;
     top: 200px;
-    font-color: white;
+    color: White;
 }
 
 #image {
