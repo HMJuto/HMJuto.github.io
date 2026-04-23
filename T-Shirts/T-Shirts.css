@@ -5,8 +5,7 @@
 
 p {
     position: absolute;
-    left: 700px;
-    right: 20px;
+    text-align: center;
     bottom: 400px;
     top: 200px;
 }
