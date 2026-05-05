@@ -23,3 +23,7 @@ p {
 body {
     background-image: url("BackgroundforJutoWebsitehomepage.jpg");
 }
+
+#Jutologo {
+    position: absolute;
+}
