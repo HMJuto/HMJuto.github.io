@@ -5,6 +5,7 @@
 }
 
 p {
+    position: absolute;
     left: 540px;
     right: 20px;
     bottom: 400px;
