@@ -1,12 +1,10 @@
 #title {
-    position: absolute;
     text-align: center;
     font-size: 100px;
     color: White;
 }
 
 p {
-    position: absolute;
     left: 540px;
     right: 20px;
     bottom: 400px;
@@ -15,7 +13,6 @@ p {
 }
 
 #image {
-    position: absolute;
     top: 50%;
     width: 350px;
     height: 240px;
