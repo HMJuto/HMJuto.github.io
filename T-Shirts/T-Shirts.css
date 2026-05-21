@@ -2,6 +2,7 @@
     text-align: center;
     font-size: 100px;
     color: White;
+    font-family: Ariel, sans-serif; 
 }
 
 p {
@@ -9,6 +10,7 @@ p {
     bottom: 400px;
     top: 200px;
     color: White;
+    font-family: Ariel, sans-serif; 
 }
 
 #image {
