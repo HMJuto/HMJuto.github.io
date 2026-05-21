@@ -41,10 +41,26 @@ body {
   margin-right: auto;
 }
 
-#T-shirts-link {
+a:link {
   color: White;
   font-size: 50px;
 }
+
+a:visited {
+  color: White;
+  font-size: 50px;
+}
+
+a:hover {
+  color: White;
+  font-size: 50px;
+}
+
+a:active {
+  color: White;
+  font-size: 50px;
+}
+
 
 
 
