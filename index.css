@@ -5,6 +5,7 @@
   color: White;
   padding-top: 10px;
   margin-bottom: 63px; 
+  font-family: Ariel, sans-serif; 
 }
 
 body {
@@ -16,12 +17,14 @@ body {
     margin-top: 10px;
     font-size: 50px;
     color: White;
+    font-family: Ariel, sans-serif; 
 }
 
 #Company-Description {
   text-align: center;
   color: White;
   font-size: 30px;
+  font-family: Ariel, sans-serif; 
 }
 
 #Juto-logo {
