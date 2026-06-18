@@ -1,3 +1,7 @@
 let Ordernowbtn = document.getElementById("Ordernowbtn")
 
-let GoToOnlineOrderservice
+Ordernowbtn.addEventListener("click", GoToOnlineOrderservice);
+
+function GoToOnlineOrderservice() {
+  window.location.assign()
+}
