@@ -5,4 +5,4 @@ function GoToOnlineOrderservice() {
 }
 
 
-Ordernowbtn.addEventListener("click", GoToOnlineOrderservice);
+Ordernowbtn.addEventListener("onClick", GoToOnlineOrderservice);
