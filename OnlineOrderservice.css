@@ -7,18 +7,14 @@ body {
   background-image: url('BackgroundforJutoWebsitehomepage.jpg');
 }
 
-#fupload {
-  
+#lbl1 {
+  color: white;
 }
 
-#txt1 {
-  
+#lbl2 {
+  color: white;
 }
 
-#email {
-  
-}
-
-label {
-  text-align: center;
+#lbl3 {
+  color: white;
 }
