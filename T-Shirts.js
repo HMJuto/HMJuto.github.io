@@ -1,8 +1,8 @@
 let Ordernowbtn = document.getElementById("Ordernowbtn");
 
-Ordernowbtn.addEventListener("click", GoToOnlineOrderservice);
-
-function GoToOnlineOrderservice() {
+Ordernowbtn.addEventListener("click", function GoToOnlineOrderservice() {
   window.open("OnlineOrderservice.html");
-}
+});
+
+
 
