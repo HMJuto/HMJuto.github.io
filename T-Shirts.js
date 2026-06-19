@@ -1,4 +1,4 @@
-let Ordernowbtn = document.getElementById("Ordernowbtn")
+let Ordernowbtn = document.getElementById("Ordernowbtn");
 
 Ordernowbtn.addEventListener("click", GoToOnlineOrderservice);
 
