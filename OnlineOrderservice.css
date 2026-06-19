@@ -1,6 +1,7 @@
 form {
   border: 5px solid white;
   align-items: center;
+  padding-right: 1px;
 }
 
 body {
