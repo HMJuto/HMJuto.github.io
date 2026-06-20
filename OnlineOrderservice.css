@@ -14,20 +14,24 @@ body {
 #lbl1 {
   color: black;
   text-align: center;
+  border: 2px solid black;
 }
 
 #lbl2 {
   color: black;
   text-align: center;
+  border: 2px solid black;
 }
 
 #lbl3 {
   color: black;
   text-align: center;
+  border: 2px solid black;
 }
 
 #lbl4 {
   color: black;
+  border: 2px solid black;
 }
 
 h1 {
