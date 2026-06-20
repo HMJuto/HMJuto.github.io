@@ -1,4 +1,4 @@
-let t_shO_Orderservice = src();
+let t_shO_Orderservice = document.createElement("script");
 t_shO_Orderservice.src = "OnlineOrderservice.html"
 
 let orderform = document.getElementById("Orderform");
