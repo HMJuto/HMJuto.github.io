@@ -12,7 +12,7 @@ let incRement = 0;
 let incRement1 = 0;
 
 for (data in formData) {
-  console.log(data[incRement1, incRement]);
+  window.alert(data[incRement1, incRement]);
   
   if incRement >= 2 {
     incRement1 = incRement1 + 1;
