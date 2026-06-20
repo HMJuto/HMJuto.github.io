@@ -9,18 +9,10 @@ function submitForm(a) {
 
 orderForm.addEventListener('submit', submitForm)
 
-let incRement = 0;
-let incRement1 = 0;
 
 for (data in formData) {
-  window.alert(data[incRement1, incRement]);
-  Console.log(data[incRement1, incRement]);
-  
-  if incRement >= 2 {
-    incRement1 = incRement1 + 1;
-  };
-
-  incRement = incRement + 1;
+  window.alert(data);
+  Console.log(data);
   
 };
 
