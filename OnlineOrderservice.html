@@ -9,22 +9,22 @@
     <h1>Online order service</h1><br>
     <br>
     <form name="T_Shirt_product_order_form" autocomplete="on" id="TShirtOrderForm">
-      <label id="lbl4" for="TShirtOrderForm">T-Shirt order</label><br>
+      <label name="lbl4" id="lbl4" for="TShirtOrderForm">T-Shirt order</label><br>
       <br>
-      <label id="lbl1" for="res1">Please upload the design/designs you want on your T-Shirt. </label><br>
-      <input type="file" id="res1" name="SelectedFile"><br>
+      <label name="lbl1" id="lbl1" for="res1">Please upload the design/designs you want on your T-Shirt. </label><br>
+      <input type="file" id="res1" name="SelectedFile" autocomplete="on"><br>
       <br>
-      <label id="lbl2" for="res2">Please type in all details for your T-Shirt e.g. T-Shirt size(e.g.Extra extra small, <br>
+      <label name="lbl2" id="lbl2" for="res2">Please type in all details for your T-Shirt e.g. T-Shirt size(e.g.Extra extra small, <br>
         Extra small, Small, Medium, Large, XL, XXL) dimensions for each asset(e.g. Images, Text) details for each <br>
         asset(e.g. Text font for text)</label> <br>
-      <input type="text" id="res2" name="T-ShirtDetails">
+      <input type="text" id="res2" name="T-ShirtDetails" autocomplete="on">
        <br>
-      <label id="lbl3" for="res3">Please enter an email that you and or anyone representing you has access that you and or anyone representing you is ok <br>
+      <label name="lbl3" id="lbl3" for="res3">Please enter an email that you and or anyone representing you has access that you and or anyone representing you is ok <br>
         with us emailing you and or anyone representing you with. We will not share the email you give us without consent and <br>
         the email you give us will be deleted after we have finished doing business with you and we will only use the email you give us for <br>
         the purpose of our business with you. </label><br>
-      <input type="email" id="res3" name="email"> <br>
-      <input type="submit" value="Order now!">
+      <input type="email" id="res3" name="email" autocomplete="on"> <br>
+      <input type="submit" value="Order now!" name="Submit" id="SubmitBtn" autocomplete="on">
     </form>
   </body>
 </html>
