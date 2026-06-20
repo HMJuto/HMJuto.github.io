@@ -1,6 +1,8 @@
 let t_shO_Orderservice = document.createElement("script");
 t_shO_Orderservice.src = "OnlineOrderservice.html"
 
+console.writeline(t_shO_Orderservice.src)
+
 let orderform = document.getElementById("Orderform");
 
 let Res1 = document.t_shO_Orderservice.getElementById("res1");
