@@ -4,6 +4,7 @@ form {
   padding-right: 1px;
   width: 700px;
   margin-left: 33%;
+  background-color: white;
 }
 
 body {
@@ -11,25 +12,25 @@ body {
 }
 
 #lbl1 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
 #lbl2 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
 #lbl3 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
 #lbl4 {
-  color: white;
+  color: black;
 }
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
 }
