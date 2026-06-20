@@ -6,9 +6,3 @@ function submitForm(a) {
 };
 
 orderForm.addEventListener('submit', submitForm)
-
-
-for (data in formData) {
-  alert(data);
-};
-
