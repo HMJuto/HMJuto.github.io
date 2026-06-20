@@ -1,4 +1,4 @@
-let orderForm = document.getElementById("TShirtOrderForm");
+let orderForm = document.querySelector('form');
 
 function submitForm(a) {
   a.preventDefault();
@@ -9,6 +9,6 @@ orderForm.addEventListener('submit', submitForm)
 
 
 for (data in formData) {
-  window.alert(data);
+  alert(data);
 };
 
