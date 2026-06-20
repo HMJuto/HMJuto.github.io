@@ -1,4 +1,4 @@
-let orderForm = document.getElementById("T_Shirt_product_order_form");
+let orderForm = document.getElementById("TShirtOrderForm");
 
 let formData = new FormData();
 
