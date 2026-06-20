@@ -6,4 +6,4 @@ function submitForm() {
   
 };
 
-orderForm.addEventListener('submit', submitForm)
+orderForm.addEventListener('submit', submitForm);
