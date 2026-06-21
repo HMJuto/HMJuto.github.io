@@ -6,6 +6,6 @@ let submitForm = submitbtn.addEventListener('click', function() {
   let formdata = new FormData(orderForm);
   alert(formdata);
   
-};);
+});
   
 
