@@ -6,7 +6,7 @@ let submitForm = submitbtn.addEventListener('click', function() {
   let formdata = new FormData(orderForm);
   alert(formdata);
   console.log(formdata)
-  export {"formdata"};
+  export { formdata };
   window.open("OnlineOrderserviceresponse.js");
   
 });
