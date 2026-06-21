@@ -1,2 +1,2 @@
-import {"formdata"} from 'OnlineOrderservice.js';
+import { formdata } from 'OnlineOrderservice.js';
 alert(formdata)
