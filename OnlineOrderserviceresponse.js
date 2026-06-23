@@ -1,4 +1,4 @@
-import { formdata } from './OnlineOrderservice.js';
+Import(formdata) from './OnlineOrderservice.js';
 alert(formdata);
   
 
