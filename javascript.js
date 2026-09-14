@@ -11,6 +11,6 @@ setInterval(changebannerimage, 10000);
 let T_Shirtsbtn = document.getElementById("T-Shirtsbtn")
 
 T_Shirtsbtn.addEventListener("click", function() {
-    window.open("")
+    window.open("https://docs.google.com/forms/d/e/1FAIpQLSdp4nlwkS6yVYnzUCzWuy18FstbxtMCiVWigbQyeHJiw7nD0Q/viewform?usp=header");
 });
 
