@@ -8,3 +8,9 @@ let changebannerimage = () => {
 
 setInterval(changebannerimage, 10000);
 
+let T_Shirtsbtn = document.getElementById("T-Shirtsbtn")
+
+T_Shirtsbtn.addEventListener("click", function() {
+    window.open("")
+});
+
