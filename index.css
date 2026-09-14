@@ -9,7 +9,8 @@
 }
 
 body {
-  background-image: url("BackgroundforJutoWebsitehomepage.jpg");
+  background-image: url("BGimage.jpg");
+  background-attachment: scroll;
 }
 
 #Slogan {
