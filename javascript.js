@@ -14,3 +14,6 @@ T_Shirtsbtn.addEventListener("click", function() {
     window.open("https://docs.google.com/forms/d/e/1FAIpQLSdp4nlwkS6yVYnzUCzWuy18FstbxtMCiVWigbQyeHJiw7nD0Q/viewform?usp=header");
 });
 
+let t_shirtImg = document.getElementById("T-Shirtsimage");
+let t_shirtPictures = []
+
