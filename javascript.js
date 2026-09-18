@@ -25,6 +25,7 @@ window.addEventListener("load", function() {
         t_shirtImg.src = t_shirtPictures[ranNumRound]
     };
 
-    setIntervel(TShirtImgChange, 10000);
     
 });
+
+setIntervel(TShirtImgChange, 10000);
