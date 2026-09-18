@@ -19,10 +19,12 @@ let t_shirtPictures = ["T-ShirtsImg1.jpeg", "T-ShirtsImg2.jpeg", "T-ShirtsImg3.j
 let body = document.getElementById("Body");
 
 window.addEventListener("load", function() {
-    let TShirtImgChange = true
-    
-    while (TShirtImgChange == true):
+    let TShirtImgChange = () => {
         let ranNum = Math.random(0, 3);
-        t_shirtImg.src = t_shirtPictures[ranNum];
+        let ranNumRound = Math.floor(ranNum);
+        t_shirtImg.src = t_shirtPictures[ranNumRound];
+    };
+
+    setIntervel(TShirtImgChange, 10000);
     
 });
