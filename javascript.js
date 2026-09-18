@@ -22,7 +22,7 @@ window.addEventListener("load", function() {
     let TShirtImgChange = () => {
         let ranNum = Math.random(0, 3);
         let ranNumRound = Math.floor(ranNum);
-        t_shirtImg.src = t_shirtPictures[ranNumRound];
+        t_shirtImg.src = t_shirtPictures[ranNumRound]
     };
 
     setIntervel(TShirtImgChange, 10000);
