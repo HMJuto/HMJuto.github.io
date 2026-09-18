@@ -18,7 +18,7 @@ let t_shirtImg = document.getElementById("T-Shirtsimage");
 let t_shirtPictures = ["T-ShirtsImg1.jpeg", "T-ShirtsImg2.jpeg", "T-ShirtsImg3.jpeg"];
 let body = document.getElementById("Body");
 
-body.addEventListener("scroll", function() {
+window.addEventListener("load", function() {
     let ranNum = Math.random(0, 3);
     t_shirtImg.src = t_shirtPictures[ranNum];
     
