@@ -18,13 +18,9 @@ let t_shirtImg = document.getElementById("T-Shirtsimage");
 let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
 let body = document.getElementById("body");
 
-window.addEventListener("load", function() {
-    let TShirtImgChange = () => {
-        t_shirtImg.src = t_shirtPictures[0]
-        t_shirtImg.src = t_shirtPictures[1]
-    };
+let TShirtImgChange = () => {
+    t_shirtImg.src = t_shirtPictures[0]
+    t_shirtImg.src = t_shirtPictures[1]
+};
 
-    setInterval(TShirtImgChange, 10000);
-
-});
-
+setInterval(TShirtImgChange, 10000);
