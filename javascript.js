@@ -18,9 +18,11 @@ let t_shirtImg = document.getElementById("T-Shirtsimage");
 let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
 let body = document.getElementById("body");
 
-let TShirtImgChange = () => {
-    t_shirtImg.src = t_shirtPictures[0]
-    t_shirtImg.src = t_shirtPictures[1]
-};
 
-setInterval(TShirtImgChange, 10000);
+let T_Shirtimgchange = true;
+
+while (T_Shirtimgchange == true):
+    t_shirtImg.src = t_shirtPictures[0]
+    setTimeout(10000);
+    t_shirtImg.src = t_shirtPictures[1]
+
