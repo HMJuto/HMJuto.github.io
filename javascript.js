@@ -21,7 +21,7 @@ let body = document.getElementById("body");
 
 let T_Shirtimgchange = true;
 
-while (T_Shirtimgchange == true):
+while (T_Shirtimgchange == true)
     t_shirtImg.src = t_shirtPictures[0]
     setTimeout(10000);
     t_shirtImg.src = t_shirtPictures[1]
