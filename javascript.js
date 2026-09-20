@@ -24,7 +24,7 @@ let T_Shirtimgchange = true;
 while (T_Shirtimgchange == true)
     let Tch1 = () => {
         t_shirtImg.src = t_shirtPictures[0]
-    }
+    };
     setTimeout(Tch1, 10000);
     t_shirtImg.src = t_shirtPictures[1]
 
