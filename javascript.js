@@ -14,8 +14,7 @@ T_Shirtsbtn.addEventListener("click", function() {
     window.open("https://docs.google.com/forms/d/e/1FAIpQLSdp4nlwkS6yVYnzUCzWuy18FstbxtMCiVWigbQyeHJiw7nD0Q/viewform?usp=header");
 });
 
-let t_shirtImg = document.getElementById("T-Shirtsimage");
-let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
+
 let body = document.getElementById("body");
 
 
@@ -23,8 +22,39 @@ let T_Shirtimgchange = true;
 
 while (T_Shirtimgchange == true)
     let Tch1 = () => {
-        t_shirtImg.src = t_shirtPictures[0]
+        
+        let t_shirtImg = document.getElementById("T-Shirtsimage");
+        let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
+        if (t_shirtImg.src == t_shirtPictures[0])
+
+            var timerFinished = false
+            let wait = () => {
+                let str = "HmJuto";
+                timerFinished = true;
+                
+            };
+            
+
+            setTimeout(wait, 10000);
+            if (wait.timerFinished == true)
+                let t_shirtImg = document.getElementById("T-Shirtsimage");
+                let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
+                t_shirtImg.src = t_shirtPictures[1]
+            
+            
+        
+        else if (t_shirtImg.src == t_shirtPictures[1])
+            
+            let wait1 = () => {
+                let str1 = "HmJuto";
+            };
+
+            setTimeout(wait1, 10000);
+        
+            let t_shirtImg1 = document.getElementById("T-Shirtsimage");
+            let t_shirtPictures1 = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
+            t_shirtImg1.src = t_shirtPictures1[1]
+        
     };
     setTimeout(Tch1, 10000);
-    t_shirtImg.src = t_shirtPictures[1]
 
