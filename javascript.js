@@ -26,9 +26,9 @@ while (T_Shirtimgchange == true)
         let t_shirtImg = document.getElementById("T-Shirtsimage");
         let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
         if (t_shirtImg.src == t_shirtPictures[0])
-
+            
             var timerFinished = false
-            let wait = () => {
+            var wait = () => {
                 let str = "HmJuto";
                 timerFinished = true;
                 
@@ -36,24 +36,36 @@ while (T_Shirtimgchange == true)
             
 
             setTimeout(wait, 10000);
-            if (wait.timerFinished == true)
-                let t_shirtImg = document.getElementById("T-Shirtsimage");
-                let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
-                t_shirtImg.src = t_shirtPictures[1]
+            var Continue = false;
+
+            while (Continue == false)
+                if (wait.timerFinished == true)
+                    let t_shirtImg = document.getElementById("T-Shirtsimage");
+                    let t_shirtPictures = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
+                    t_shirtImg.src = t_shirtPictures[1]
+                    Continue = true
             
             
-        
+            
         else if (t_shirtImg.src == t_shirtPictures[1])
-            
-            let wait1 = () => {
+            var timerFinished1 = false
+            var wait1 = () => {
                 let str1 = "HmJuto";
+                timerFinished1 = true;
+                
             };
+            
 
             setTimeout(wait1, 10000);
-        
-            let t_shirtImg1 = document.getElementById("T-Shirtsimage");
-            let t_shirtPictures1 = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
-            t_shirtImg1.src = t_shirtPictures1[1]
+            var Continue1 = false;
+
+            while (Continue1 == false)
+                if (wait1.timerFinished1 == true)
+                    let t_shirtImg1 = document.getElementById("T-Shirtsimage");
+                    let t_shirtPictures1 = ["/T-ShirtsImg2.jpeg", "/T-ShirtsImg3.jpeg"];
+                    t_shirtImg1.src = t_shirtPictures1[1]
+                    Continue1 = true
+            
         
     };
     setTimeout(Tch1, 10000);
