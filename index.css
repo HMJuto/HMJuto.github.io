@@ -98,6 +98,15 @@ a:active {
   font-family: Ariel, sans-serif;
 }
 
+#T_ShirtPrice {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 900px;
+  font-size: 30px;
+  color: White;
+  font-family: Ariel, sans-serif;
+}
+
 
 
 
